@@ -6,7 +6,6 @@ public class Report_CvetyA {
 		
 		Scanner sc = new Scanner(System.in);
 
-		while (true) {
 			System.out.println("How does Ivo tasks ranging from 10 days?");
 
 			int[] tasks = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6 };
@@ -17,7 +16,6 @@ public class Report_CvetyA {
 			}
 			System.out.println("Finished tasks for all 10th days: " + sum);
 
-			while (true) {
 				System.out.println("Enter day from 2nd day: ");
 				int m = sc.nextInt();
 				int[] days1 = new int[m];
@@ -33,7 +31,6 @@ public class Report_CvetyA {
 				}
 				System.out.println("Finished tasks from 2nd to 7th days: "+ sumN);
 
-				while (true) {
 					System.out.println("Enter day from 3rd day: ");
 					int p = sc.nextInt();
 					int[] days2 = new int[p];
@@ -49,7 +46,7 @@ public class Report_CvetyA {
 					}
 					System.out.println("Finished tasks from 3rd to 10th days: "+ sumM);
 
-					while (true) {
+					
 						System.out.println("Enter day from 4th day: ");
 						int f = sc.nextInt();
 						int[] days4 = new int[f];
@@ -66,7 +63,7 @@ public class Report_CvetyA {
 						}
 						System.out.println("Finished tasks from 4rd to 8th days: "+ sumR);
 
-						while (true) {
+						
 							System.out.println("Enter day from 5th day: ");
 							int m1 = sc.nextInt();
 							int[] days6 = new int[m1];
@@ -83,7 +80,7 @@ public class Report_CvetyA {
 							}
 							System.out.println("Finished tasks from 5th to 9th days: "+ sumT);
 									
-							while (true) {
+						
 								System.out.println("Enter day from 7th day: ");
 								int y = sc.nextInt();
 								int[] days8 = new int[y];
@@ -101,8 +98,7 @@ public class Report_CvetyA {
 								System.out.println("Finished tasks from 7th to 10th days: "+ sumD);
 
 								while (true) {
-									System.out.println("\n"
-											+ "How does Ivo tasks every day?");
+									System.out.println("\n"	+ "How does Ivo tasks every day?");
 									System.out.println("Enter day: ");
 									int n = sc.nextInt();
 									int[] day = new int[n];
@@ -117,10 +113,5 @@ public class Report_CvetyA {
 									System.out.println("Finished tasks:" + sum1+ " tasks");
 								}
 							}
-						}
-					}
-				}
-			}
-		}
-	}
 }
+
