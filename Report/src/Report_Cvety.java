@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Report_CvetyA {
+public class Report_Cvety {
 
 	public static void main(String[] args) {
 
@@ -22,7 +22,8 @@ public class Report_CvetyA {
 		System.out.println("Enter day to: ");
 		int s = sc.nextInt();
 		int[] days = new int[s];
-		int[] tasks1 = new int[] { 2 ,5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13, 4 };
+		int[] tasks1 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13,
+				4 };
 		int sumN = 0;
 
 		for (int k = m; k < s; k++) {
@@ -36,10 +37,11 @@ public class Report_CvetyA {
 		System.out.println("Enter day to: ");
 		int l = sc.nextInt();
 		int[] days3 = new int[l];
-		int[] tasks3 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13, 4 };
+		int[] tasks3 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13,
+				4 };
 		int sumM = 0;
 
-		for (int j = p; j < l; j++) {	
+		for (int j = p; j < l; j++) {
 			sumM += tasks3[j];
 		}
 		System.out.println("Finished tasks for all days: " + sumM);
@@ -50,7 +52,8 @@ public class Report_CvetyA {
 		System.out.println("Enter day to: ");
 		int e = sc.nextInt();
 		int[] days5 = new int[e];
-		int[] tasks4 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13, 4 };
+		int[] tasks4 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13,
+				4 };
 		int sumR = 0;
 
 		for (int h = f; h < e; h++) {
@@ -64,7 +67,8 @@ public class Report_CvetyA {
 		System.out.println("Enter day to: ");
 		int s1 = sc.nextInt();
 		int[] days7 = new int[s1];
-		int[] tasks6 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13, 4 };
+		int[] tasks6 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13,
+				4 };
 		int sumT = 0;
 
 		for (int c = m1; c < s1; c++) {
@@ -78,14 +82,15 @@ public class Report_CvetyA {
 		System.out.println("Enter day to: ");
 		int w = sc.nextInt();
 		int[] days9 = new int[w];
-		int[] tasks7 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13, 4};
+		int[] tasks7 = new int[] { 2, 5, 9, 7, 1, 6, 3, 4, 8, 7, 6, 9, 10, 13,
+				4 };
 		int sumD = 0;
 
 		for (int g = y; g < w; g++) {
 			sumD += tasks7[g];
 		}
 		System.out.println("Finished tasks for all days: " + sumD);
-		
+
 		while (true) {
 			System.out.println("\n" + "How does Ivo tasks every day?");
 			System.out.println("Enter day: ");
